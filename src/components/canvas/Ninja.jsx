@@ -5,32 +5,30 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = () => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+const Ninja = () => {
+  const Ninjamodel = useGLTF("./fortnite_ninja_skin_styles/scene.gltf");
 
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
+        position={[20, -45, 30]}
+        angle={0.25}
         penumbra={1}
         intensity={1}
-        castShadow
-        shadow-mapSize={1024}
       />
-      <pointLight intensity={1} />
+      <pointLight intensity={2} />
       <primitive
-        object={computer.scene}
-        scale={  0.75}
-        position={[0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        object={Ninjamodel.scene}
+        scale={0.00038}
+        position={[0, -4.5, -0.5]}
+        rotation={[0, 4.5, 0]}
       />
     </mesh>
   );
 };
 
-const ComputersCanvas = () => {
+const NinjaCanvas = () => {
   const [canvasHeight, setCanvasHeight] = useState(window.innerHeight)
   const [canvasWidth, setCanvasWidth] = useState(window.innerWidth)
 
@@ -61,7 +59,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers />
+        <Ninja />
       </Suspense>
 
       <Preload all />
@@ -69,4 +67,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export default NinjaCanvas;
