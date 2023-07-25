@@ -10,9 +10,15 @@ const Ninja = () => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <ambientLight intensity={0.5} color='0xFFFFFF' />
       <spotLight
         position={[20, -45, 30]}
+        angle={0.25}
+        penumbra={1}
+        intensity={1}
+      />
+      <spotLight
+        position={[-20, 45, -30]}
         angle={0.25}
         penumbra={1}
         intensity={1}
