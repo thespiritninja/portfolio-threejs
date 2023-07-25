@@ -1,19 +1,13 @@
 import {
     mobile,
-    backend,
-    creator,
     web,
     javascript,
-    typescript,
-    html,
-    css,
     reactjs,
     redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     meta,
     starbucks,
@@ -23,6 +17,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    backend1,
+    creator,
+    unreal,
+    unity,
+    postgres,
+    python,
+    r,
 } from "../assets";
 
 export const navLinks = [
@@ -42,71 +43,71 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
         title: "React Native Developer",
         icon: mobile,
     },
     {
         title: "Backend Developer",
-        icon: backend,
+        icon: backend1,
     },
     {
-        title: "Content Creator",
+        title: "Reliability Engineer",
+        icon: web,
+    },
+    {
+        title: "Game Programmer",
         icon: creator,
     },
 ];
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
         name: "JavaScript",
         icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
     },
     {
         name: "Node JS",
         icon: nodejs,
     },
     {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
         name: "MongoDB",
         icon: mongodb,
+    },
+    {
+        name: "Postgres",
+        icon: postgres,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "R",
+        icon: r,
     },
     {
         name: "Three JS",
         icon: threejs,
     },
     {
-        name: "git",
-        icon: git,
+        name: "unity",
+        icon: unity,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "unreal",
+        icon: unreal,
+    },
+    {
+        name: "git",
+        icon: git,
     },
     {
         name: "docker",
