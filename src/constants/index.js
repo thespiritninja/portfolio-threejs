@@ -3,7 +3,6 @@ import {
     web,
     javascript,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -117,16 +116,16 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "R&D Intern",
+        company_name: "Osa Commerce",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Jun 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Utilize integration expertise and technical skills for accurate and timely solutions, mastering data sources, ETL, API, and integration processes.",
+            "Automate processes with AI, driving efficiency and continuous improvement, resulting in streamlined operations and enhanced performance.",
+            "Contribute to R&D by analyzing business requirements and applying TensorFlow and scikit-learn for cutting-edge solutions.",
+            "Engage in end-to-end integration projects, advancing ML capabilities, and delivering innovative solutions. Achieved a remarkable 38% increase in clients' business process efficiency at OSA.",
         ],
     },
     {
@@ -143,16 +142,16 @@ const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Full Stack Developer",
+        company_name: "Sun Ark Services",
         icon: shopify,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Aug 2019 - May 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed OLAP/OLTP web app (C# & MS-SQL) for streamlined access to 3.5M+ records, eliminating Excel dependency.",
+            "Implemented in-house ETL tool for automated inventory updates, enhancing efficiency.",
+            "Created pricing update scheduler as batch jobs, reducing seller portal updates TAT from 24Hrs to 2 Hrs with 97% accuracy.",
+            "Result: 65% increase in company sales, driving significant business growth."
         ],
     },
     {
@@ -217,6 +216,48 @@ const projects = [
             },
         ],
         image: carrent,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Job IT",
+        description:
+            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: jobit,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Job IT",
+        description:
+            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: jobit,
         source_code_link: "https://github.com/",
     },
     {
