@@ -155,11 +155,11 @@ const experiences = [
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Associate Software Engineer",
+        company_name: "Accenture",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Sep 2018 - Aug 2019",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
