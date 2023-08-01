@@ -36,6 +36,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sunark from "./company/indigateway.png";
+import osa from "./company/osa-logo.png";
+import accenture from "./company/accenture.png";
+import shipmantra from "./company/shipmantra.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -78,6 +83,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  shipmantra,
+  osa,
+  sunark,
+  accenture,
   carrent,
   jobit,
   tripguide,

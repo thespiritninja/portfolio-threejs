@@ -23,6 +23,10 @@ import {
     postgres,
     python,
     r,
+    osa,
+    sunark,
+    accenture,
+    shipmantra,
 } from "../assets";
 
 export const navLinks = [
@@ -118,8 +122,8 @@ const experiences = [
     {
         title: "R&D Intern",
         company_name: "Osa Commerce",
-        icon: starbucks,
-        iconBg: "#383E56",
+        icon: osa,
+        iconBg: "#9242d8",
         date: "Jun 2023 - Present",
         points: [
             "Utilize integration expertise and technical skills for accurate and timely solutions, mastering data sources, ETL, API, and integration processes.",
@@ -131,8 +135,8 @@ const experiences = [
     {
         title: "React Native Developer",
         company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
+        icon: shipmantra,
+        iconBg: "#fcfcfc",
         date: "Jan 2021 - Feb 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
@@ -144,8 +148,8 @@ const experiences = [
     {
         title: "Full Stack Developer",
         company_name: "Sun Ark Services",
-        icon: shopify,
-        iconBg: "#383E56",
+        icon: sunark,
+        iconBg: "#fcfcfc",
         date: "Aug 2019 - May 2021",
         points: [
             "Developed OLAP/OLTP web app (C# & MS-SQL) for streamlined access to 3.5M+ records, eliminating Excel dependency.",
@@ -157,14 +161,14 @@ const experiences = [
     {
         title: "Associate Software Engineer",
         company_name: "Accenture",
-        icon: meta,
-        iconBg: "#E6DEDD",
+        icon: accenture,
+        iconBg: "#fcfcfc",
         date: "Sep 2018 - Aug 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Orchestrated billing application maintenance using C++, implementing new coding logic for UK retail clients, reducing errors and enhancing performance.",
+            "Diagnostics led to a 29% decrease in customer escalations. Automated Python scripts streamlined manual error analysis, reducing BAU time by 99%.",
+            "Demonstrated expertise as a Site Reliability Engineer, focusing on automation using AI stratergies, driving team performance and efficient solutions.",
+            "Transformed operations, showcasing accelerated team performance and efficient solutions.",
         ],
     },
 ];
