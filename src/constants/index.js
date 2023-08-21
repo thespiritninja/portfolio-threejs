@@ -8,13 +8,6 @@ import {
     mongodb,
     git,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     backend1,
     creator,
@@ -27,6 +20,12 @@ import {
     sunark,
     accenture,
     shipmantra,
+    crisp,
+    fantactic,
+    pokego,
+    carRace,
+    minecraft,
+    flying
 } from "../assets";
 
 export const navLinks = [
@@ -134,14 +133,14 @@ const experiences = [
     },
     {
         title: "React Native Developer",
-        company_name: "Tesla",
+        company_name: "Shipmantra",
         icon: shipmantra,
         iconBg: "#fcfcfc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jul 2021 - Aug 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Developing and maintaining web applications using React.js and other related frontend technologies to ensure cross-browser compatibility.",
+            "Designing and Developing RESTful microservices using Node.js and integrated with other shipment API services",
+            "Collaborating with cross-functional teams including designers and leading other developers to create high-quality sprint stories.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
@@ -155,7 +154,7 @@ const experiences = [
             "Developed OLAP/OLTP web app (C# & MS-SQL) for streamlined access to 3.5M+ records, eliminating Excel dependency.",
             "Implemented in-house ETL tool for automated inventory updates, enhancing efficiency.",
             "Created pricing update scheduler as batch jobs, reducing seller portal updates TAT from 24Hrs to 2 Hrs with 97% accuracy.",
-            "Result: 65% increase in company sales, driving significant business growth."
+            "Result: 60% increase in company sales, driving significant business growth."
         ],
     },
     {
@@ -173,139 +172,141 @@ const experiences = [
     },
 ];
 
-const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
-
 const projects = [
     {
-        name: "Car Rent",
+        name: "CRISP Webapp",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "SaaS portal for Nature Journal's paper authored by Dr. Hasan Kurban. Tool designed to simulate results of ML model designed in R on a 3D graph.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "r-plumber",
+                color: "green-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "white-text-gradient",
+            },
+            {
+                name: "machine-learning",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: crisp,
+        source_code_link: "https://github.com/thespiritninja/dsaa-webapp",
+    },
+    {
+        name: "Fantactic Tool",
+        description:
+            "Web-based SaaS portal for client to perform CRUD operation and visualise different specifics of a Fan like performance, torque and octave on graphs. Developed a patent search algorithm to result best fan per user inputs",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "green-text-gradient",
             },
             {
                 name: "mongodb",
-                color: "green-text-gradient",
+                color: "orange-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "aws",
+                color: "white-text-gradient",
+            },
+        ],
+        image: fantactic,
+        source_code_link: "https://github.com/thespiritninja/ENCON-FanDB",
+    },
+    {
+        name: "2D PokémonGO Clone",
+        description:
+            "2D PokeMon Go Clone in XCode using MapKit, SpriteKit and CoreData. With Realtime random instantiation of pokemons on map and interactable fight scene when tapped. Worked on this app to showcase my zeal for mobile gaming as AI for C323 class",
+        tags: [
+            {
+                name: "XCode",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "swift",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "iOS",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: pokego,
+        source_code_link: "https://github.com/thespiritninja",
     },
     {
-        name: "Job IT",
+        name: "Minecraft Clone",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Minecraft clone with basic gameplay using React and Three. Designed the webapp to understand the working of WebGL and Physics for Game Programming and Development",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "three",
+                color: "white-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "react-three",
+                color: "orange-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: minecraft,
+        source_code_link: "https://github.com/thespiritninja/react-minecraft",
     },
     {
-        name: "Job IT",
+        name: "Car Racing Game",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A basic car racing game designed with React and Three. To further understand and dive deep into working of Camera perspective, Velocity, Physics and their interaction with 3D models.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "three",
+                color: "white-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "react-three",
+                color: "orange-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: carRace,
+        source_code_link: "https://github.com/thespiritninja/react-three-physics",
     },
     {
-        name: "Job IT",
+        name: "Take a Flight",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Flight simulation game with React and Three. Designed this game to work with bigger enironments and aerodynamic physics and velocity. Its a WIP",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "three",
+                color: "white-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "react-three",
+                color: "orange-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: flying,
+        source_code_link: "https://github.com/thespiritninja/react-flying-plane",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

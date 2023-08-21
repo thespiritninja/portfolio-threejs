@@ -45,6 +45,12 @@ import shipmantra from "./company/shipmantra.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import crisp from "./crisp-img.png";
+import fantactic from "./fantactic-img.png";
+import pokego from "./pokego-img.png";
+import carRace from "./car-race.png";
+import flying from "./flying.png";
+import minecraft from "./minecraft.png";
 
 export {
   csharp,
@@ -90,4 +96,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  crisp,
+  fantactic,
+  pokego,
+  carRace,
+  minecraft,
+  flying
 };
