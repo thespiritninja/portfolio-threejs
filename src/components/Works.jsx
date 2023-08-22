@@ -59,7 +59,7 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          Below projects showcase my skillset and lavda lasun
+          Below projects showcase my skillset and expertise in the domain of Full Stack development so far. Also highlighting my humble yet zealous attempt to transition to Game Development industry.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>
