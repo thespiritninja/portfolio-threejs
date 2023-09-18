@@ -11,7 +11,7 @@ import {
     threejs,
     backend1,
     creator,
-    unreal,
+    csharp,
     unity,
     postgres,
     python,
@@ -45,7 +45,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "React Native Developer",
+        title: "React Developer",
         icon: mobile,
     },
     {
@@ -104,8 +104,8 @@ const technologies = [
         icon: unity,
     },
     {
-        name: "unreal",
-        icon: unreal,
+        name: "c-sharp",
+        icon: csharp,
     },
     {
         name: "git",
@@ -119,20 +119,20 @@ const technologies = [
 
 const experiences = [
     {
-        title: "R&D Intern",
+        title: "Product R&D Intern",
         company_name: "Osa Commerce",
         icon: osa,
         iconBg: "#9242d8",
         date: "Jun 2023 - Present",
         points: [
+            "Leverage integration skills for accurate solutions and drive process improvement by crafting orchestrations designed in JavaScript.",
             "Utilize integration expertise and technical skills for accurate and timely solutions, mastering data sources, ETL, API, and integration processes.",
             "Automate processes with AI, driving efficiency and continuous improvement, resulting in streamlined operations and enhanced performance.",
-            "Contribute to R&D by analyzing business requirements and applying TensorFlow and scikit-learn for cutting-edge solutions.",
-            "Engage in end-to-end integration projects, advancing ML capabilities, and delivering innovative solutions. Achieved a remarkable 38% increase in clients' business process efficiency at OSA.",
+            "Engage in end-to-end integration projects, advancing ML capabilities, and delivering innovative solutions. Achieved a remarkable 60% increase in clients' business process efficiency at OSA.",
         ],
     },
     {
-        title: "React Native Developer",
+        title: "Sr. Full Stack Developer",
         company_name: "Shipmantra",
         icon: shipmantra,
         iconBg: "#fcfcfc",
@@ -167,7 +167,6 @@ const experiences = [
             "Orchestrated billing application maintenance using C++, implementing new coding logic for UK retail clients, reducing errors and enhancing performance.",
             "Diagnostics led to a 29% decrease in customer escalations. Automated Python scripts streamlined manual error analysis, reducing BAU time by 99%.",
             "Demonstrated expertise as a Site Reliability Engineer, focusing on automation using AI stratergies, driving team performance and efficient solutions.",
-            "Transformed operations, showcasing accelerated team performance and efficient solutions.",
         ],
     },
 ];
