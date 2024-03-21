@@ -6,6 +6,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import play from "./play.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -41,10 +42,6 @@ import osa from "./company/osa-logo.png";
 import accenture from "./company/accenture.png";
 import shipmantra from "./company/shipmantra.png";
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import crisp from "./crisp-img.png";
 import fantactic from "./fantactic-img.png";
 import pokego from "./pokego-img.png";
@@ -93,13 +90,11 @@ export {
   osa,
   sunark,
   accenture,
-  carrent,
-  jobit,
-  tripguide,
   crisp,
   fantactic,
   pokego,
   carRace,
   minecraft,
-  flying
+  flying,
+  play,
 };
