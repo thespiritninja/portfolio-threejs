@@ -91,7 +91,6 @@ const NinjaCanvas = () => {
       style={{
         height: canvasHeight,
         width: canvasWidth,
-        position: "relative",
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
