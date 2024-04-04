@@ -22,8 +22,8 @@ const Hero = () => {
             and sometimes GAMES!!!
           </p>
         </div>
-        <div className={"relative hover:scale-150 hover:rotate-45"}>
-          <h1>Dare to touch me?!</h1>
+        <div className={"relative m-9 hover:scale-150 hover:rotate-45"}>
+          <h1>Dare to tap on me?!</h1>
         </div>
       </div>
 

@@ -41,6 +41,7 @@ import sunark from "./company/indigateway.png";
 import osa from "./company/osa-logo.png";
 import accenture from "./company/accenture.png";
 import shipmantra from "./company/shipmantra.png";
+import iu from "./company/IU-logo.png";
 
 import crisp from "./crisp-img.png";
 import fantactic from "./fantactic-img.png";
@@ -87,6 +88,7 @@ export {
   starbucks,
   tesla,
   shipmantra,
+  iu,
   osa,
   sunark,
   accenture,

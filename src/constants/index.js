@@ -26,6 +26,7 @@ import {
   carRace,
   minecraft,
   flying,
+  iu,
 } from "../assets";
 
 export const navLinks = [
@@ -119,16 +120,29 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Graduate Research Assistant (Unity Developer)",
+    company_name: "Indiana University-Bloomington",
+    icon: iu,
+    iconBg: "#fcfcfc",
+    date: "Jun 2023 - Present",
+    points: [
+      "Working under Prof. Andreas Bueckle on developing the HRA Organ Gallery in VR using Unity.",
+      "Notable acheivements: wrote editor scripts in C# to automate pre build checks procedure before exporting to .apk",
+      "Worked on development of HRA VR Organ Gallery app targeted for Meta Quest 2 and similar XR devices.",
+      "Participated in code reviews and weekly SCRUMs with professor, to ensure sprints are delivered on time.",
+    ],
+  },
+  {
     title: "Product R&D Intern",
     company_name: "Osa Commerce",
     icon: osa,
     iconBg: "#9242d8",
-    date: "Jun 2023 - Present",
+    date: "Jun 2023 - Dec 2023",
     points: [
-      "Leverage integration skills for accurate solutions and drive process improvement by crafting orchestrations designed in JavaScript.",
-      "Utilize integration expertise and technical skills for accurate and timely solutions, mastering data sources, ETL, API, and integration processes.",
-      "Automate processes with AI, driving efficiency and continuous improvement, resulting in streamlined operations and enhanced performance.",
-      "Engage in end-to-end integration projects, advancing ML capabilities, and delivering innovative solutions. Achieved a remarkable 60% increase in clients' business process efficiency at OSA.",
+      "Developed secure, high-performing application tools and APIs using C# and .NET Framework for e-commerce and logistics solutions.",
+      "Designed and implemented automated test cases for the developed tools and APIs, ensuring robust functionality.",
+      "Optimizing diverse data sources by orchestrating ETL processes to drive improvements and integrating these pipelines to internal tools.",
+      "Collaborated with cross-functional teams to deliver end-to-end integration of stories and identify areas suitable for improving efficiency using automation and implemented the automation frameworks",
     ],
   },
   {
