@@ -20,6 +20,19 @@ export const theme = {
     backgroundImage: {
       "hero-pattern": "url('/src/assets/herobg.png')",
     },
+    scale: {
+      50: "0.5",
+    },
+    rotate: {
+      45: "45deg",
+    },
+  },
+  // Define custom hover variants
+  variants: {
+    extend: {
+      scale: ["hover"],
+      rotate: ["hover"],
+    },
   },
 };
 export const plugins = [];

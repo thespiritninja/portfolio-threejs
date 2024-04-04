@@ -1,42 +1,73 @@
 /* eslint-disable react/no-unknown-property */
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
+import { Canvas, useFrame } from "@react-three/fiber";
+import {
+  OrbitControls,
+  Preload,
+  useGLTF,
+  useAnimations,
+} from "@react-three/drei";
 import CanvasLoader from "../Loader";
+import { AnimationMixer, Euler } from "three";
 
 const Ninja = () => {
-  const Ninjamodel = useGLTF("./fortnite_ninja_skin_styles/scene.gltf");
+  const { nodes, animations, scene } = useGLTF(
+    "./low-poly_venom_-_spider-man_2_ps5.glb"
+  );
+  const group = React.useRef();
+  const { actions, names } = useAnimations(animations, group);
+  const [isAnimating, setIsAnimating] = useState(false);
+  let mixer;
+  if (animations.length) {
+    mixer = new AnimationMixer(scene);
+    animations.forEach((clip) => {
+      const action = mixer.clipAction(clip);
+      if (clip.name === "Idle") {
+        action.reset().fadeIn(0.5).play();
+      }
+      if (isAnimating && clip.name === "Roar") {
+        action.reset().fadeIn(0.5).play();
+      }
+    });
+  }
+
+  useFrame((state, delta) => {
+    mixer?.update(delta);
+  });
+
+  useEffect(() => {
+    // if (actions.length > 0) {
+    //   actions.Idle.play();
+    // }
+  }, [actions, names]);
+
+  const handleClick = () => {
+    setIsAnimating(!isAnimating);
+  };
 
   return (
-    <mesh>
-      <ambientLight intensity={0.5} color='0xFFFFFF' />
+    <mesh onClick={handleClick}>
+      <ambientLight intensity={0.5} color="0xFFFFFF" />
       <spotLight
         position={[20, -45, 30]}
         angle={0.25}
         penumbra={1}
         intensity={1}
       />
-      <spotLight
-        position={[-20, 45, -30]}
-        angle={0.25}
-        penumbra={1}
-        intensity={1}
-      />
       <pointLight intensity={2} />
       <primitive
-        object={Ninjamodel.scene}
-        scale={0.00038}
-        position={[0, -4.5, -0.5]}
-        rotation={[0, 4.5, 0]}
+        object={scene}
+        scale={1.5}
+        position={[0, -2.5, 0]}
+        rotation={new Euler(0, Math.PI / 2, 0)}
       />
     </mesh>
   );
 };
 
 const NinjaCanvas = () => {
-  const [canvasHeight, setCanvasHeight] = useState(window.innerHeight)
-  const [canvasWidth, setCanvasWidth] = useState(window.innerWidth)
+  const [canvasHeight, setCanvasHeight] = useState(window.innerHeight);
+  const [canvasWidth, setCanvasWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
@@ -52,12 +83,16 @@ const NinjaCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      //frameloop="demand"
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
-      style={{height: canvasHeight, width: canvasWidth}}
+      style={{
+        height: canvasHeight,
+        width: canvasWidth,
+        position: "relative",
+      }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -67,7 +102,6 @@ const NinjaCanvas = () => {
         />
         <Ninja />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );
