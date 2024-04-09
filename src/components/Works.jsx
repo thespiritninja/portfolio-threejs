@@ -75,7 +75,7 @@ const Works = () => {
         >
           Below projects showcase my skillset and expertise in the domain of
           Full Stack development so far. Also highlighting my humble yet zealous
-          attempt to transition to Game Development industry.
+          love for Game Dev.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

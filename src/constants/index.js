@@ -139,10 +139,9 @@ const experiences = [
     iconBg: "#9242d8",
     date: "Jun 2023 - Dec 2023",
     points: [
-      "Developed secure, high-performing application tools and APIs using C# and .NET Framework for e-commerce and logistics solutions.",
-      "Designed and implemented automated test cases for the developed tools and APIs, ensuring robust functionality.",
-      "Optimizing diverse data sources by orchestrating ETL processes to drive improvements and integrating these pipelines to internal tools.",
-      "Collaborated with cross-functional teams to deliver end-to-end integration of stories and identify areas suitable for improving efficiency using automation and implemented the automation frameworks",
+      "Developed tailored components on ReactJS as POCs aligning to meet client’s requirement. Participated in code-reviews and implemented enhancements to existing component, ensuring to maintain coding standards and style guidelines",
+      "Developed secure, high-performing APIs using C# and .NET Framework for e-commerce and logistics solutions. Designed and implemented automated test cases for the component and APIs, ensuring robust functionality.",
+      "Ensured end-to-end deployment of builds on AWS amplify by virtue of Github CI/CD and integrated APIs as RESTful service on AWS APIgateway. ",
     ],
   },
   {
@@ -167,8 +166,8 @@ const experiences = [
     points: [
       "Developed OLAP/OLTP web app (C# & MS-SQL) for streamlined access to 3.5M+ records, eliminating Excel dependency.",
       "Implemented in-house ETL tool for automated inventory updates, enhancing efficiency.",
-      "Created pricing update scheduler as batch jobs, reducing seller portal updates TAT from 24Hrs to 2 Hrs with 97% accuracy.",
-      "Result: 60% increase in company sales, driving significant business growth.",
+      "Created pricing update scheduler as batch jobs, reducing seller portal updates TAT from 24Hrs to 2 Hrs (83% time saved)",
+      "Result: 47% increase in company sales, driving significant business growth.",
     ],
   },
   {
@@ -237,27 +236,6 @@ const projects = [
     source_code_link: "https://github.com/thespiritninja/ENCON-FanDB",
   },
   {
-    name: "2D PokémonGO Clone",
-    description:
-      "2D PokeMon Go Clone in XCode using MapKit, SpriteKit and CoreData. With Realtime random instantiation of pokemons on map and interactable fight scene when tapped. Worked on this app to showcase my zeal for mobile gaming as AI for C323 class",
-    tags: [
-      {
-        name: "XCode",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "swift",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "iOS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pokego,
-    source_code_link: "https://github.com/thespiritninja",
-  },
-  {
     name: "Minecraft Game",
     description:
       "Minecraft clone with basic gameplay using React and Three. Designed the webapp to understand the working of WebGL and Physics for Game Programming and Development",
@@ -300,7 +278,7 @@ const projects = [
     source_code_link: "https://hotwheels-track.vercel.app/",
   },
   {
-    name: "Flight Game",
+    name: "Flight Simulator",
     description:
       "Flight simulation game with React and Three. Designed this game to work with bigger environments and aerodynamic physics and velocity.",
     tags: [
@@ -318,7 +296,49 @@ const projects = [
       },
     ],
     image: flying,
-    source_code_link: "https://react-flying-plane.vercel.app/",
+    source_code_link: "https://github.com/thespiritninja/react-flying-plane",
+  },
+  {
+    name: "2D PokémonGO Clone",
+    description:
+      "2D PokeMon Go Clone in XCode using MapKit, SpriteKit and CoreData. With Realtime random instantiation of pokemons on map and interactable fight scene when tapped. Worked on this app to showcase my zeal for mobile gaming as AI for C323 class",
+    tags: [
+      {
+        name: "XCode",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "swift",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "iOS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pokego,
+    source_code_link: "https://github.com/thespiritninja",
+  },
+  {
+    name: "EduLearning Mobile App",
+    description:
+      "EduLearning Mobile App designed to give users a OTG learning experience. The app was designed using React Native and Strapi backend service for course details.",
+    tags: [
+      {
+        name: "cross_platform",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "white-text-gradient",
+      },
+      {
+        name: "react-native",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: iu,
+    source_code_link: "https://github.com/thespiritninja/EduLearningApp",
   },
 ];
 
