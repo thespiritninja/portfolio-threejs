@@ -296,7 +296,7 @@ const projects = [
       },
     ],
     image: flying,
-    source_code_link: "https://github.com/thespiritninja/react-flying-plane",
+    source_code_link: "https://react-flying-plane.vercel.app/",
   },
   {
     name: "2D PokémonGO Clone",
