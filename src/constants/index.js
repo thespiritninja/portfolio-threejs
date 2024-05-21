@@ -278,7 +278,7 @@ const projects = [
     source_code_link: "https://hotwheels-track.vercel.app/",
   },
   {
-    name: "Flight Simulator",
+    name: "Flight Sim Game",
     description:
       "Flight simulation game with React and Three. Designed this game to work with bigger environments and aerodynamic physics and velocity.",
     tags: [
