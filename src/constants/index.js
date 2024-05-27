@@ -140,7 +140,7 @@ const experiences = [
     date: "Jun 2023 - Dec 2023",
     points: [
       "Developed tailored components on ReactJS as POCs aligning to meet client’s requirement. Participated in code-reviews and implemented enhancements to existing component, ensuring to maintain coding standards and style guidelines",
-      "Developed secure, high-performing APIs using C# and .NET Framework for e-commerce and logistics solutions. Designed and implemented automated test cases for the component and APIs, ensuring robust functionality.",
+      "Developed secure, high-performing APIs for e-commerce and logistics solutions. Designed and implemented automated test cases for the component and APIs, ensuring robust functionality.",
       "Ensured end-to-end deployment of builds on AWS amplify by virtue of Github CI/CD and integrated APIs as RESTful service on AWS APIgateway. ",
     ],
   },
@@ -177,7 +177,7 @@ const experiences = [
     iconBg: "#fcfcfc",
     date: "Sep 2018 - Aug 2019",
     points: [
-      "Orchestrated billing application maintenance using C++, implementing new coding logic for UK retail clients, reducing errors and enhancing performance.",
+      "Orchestrated billing application built on Java , implementing new coding logic, reducing errors and enhancing performance.",
       "Diagnostics led to a 29% decrease in customer escalations. Automated Python scripts streamlined manual error analysis, reducing BAU time by 99%.",
       "Demonstrated expertise as a Site Reliability Engineer, focusing on automation using AI stratergies, driving team performance and efficient solutions.",
     ],
