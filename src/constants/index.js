@@ -141,7 +141,7 @@ const experiences = [
     points: [
       "Developed tailored components on ReactJS as POCs aligning to meet client’s requirement. Participated in code-reviews and implemented enhancements to existing component, ensuring to maintain coding standards and style guidelines",
       "Developed secure, high-performing APIs for e-commerce and logistics solutions. Designed and implemented automated test cases for the component and APIs, ensuring robust functionality.",
-      "Ensured end-to-end deployment of builds on AWS amplify by virtue of Github CI/CD and integrated APIs as RESTful service on AWS APIgateway. ",
+      "Ensured end-to-end deployment of builds by virtue of Github CI/CD and Docker image containers ",
     ],
   },
   {
