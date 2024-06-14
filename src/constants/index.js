@@ -177,7 +177,7 @@ const experiences = [
     iconBg: "#fcfcfc",
     date: "Sep 2018 - Aug 2019",
     points: [
-      "Orchestrated billing application built on Java , implementing new coding logic, reducing errors and enhancing performance.",
+      "Monitoring jobs of POS billing application for UK retail giant, implementing new coding logic, reducing errors and enhancing performance.",
       "Diagnostics led to a 29% decrease in customer escalations. Automated Python scripts streamlined manual error analysis, reducing BAU time by 99%.",
       "Demonstrated expertise as a Site Reliability Engineer, focusing on automation using AI stratergies, driving team performance and efficient solutions.",
     ],
