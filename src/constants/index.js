@@ -22,11 +22,14 @@ import {
   shipmantra,
   crisp,
   fantactic,
+  basata,
+  rediminds,
   pokego,
   carRace,
   minecraft,
   flying,
   iu,
+  hraOrganGallery,
 } from "../assets";
 
 export const navLinks = [
@@ -46,20 +49,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "Full Stack Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend1,
+    title: "AI Engineer",
+    icon: creator,
   },
   {
-    title: "Reliability Engineer",
+    title: "Unity Developer",
     icon: web,
   },
   {
-    title: "Game Programmer",
-    icon: creator,
+    title: "SRE Engineer",
+    icon: backend1,
   },
 ];
 
@@ -120,11 +123,37 @@ const technologies = [
 
 const experiences = [
   {
+    title: "AI Product Engineer II",
+    company_name: "RediMinds, Inc",
+    icon: rediminds,
+    iconBg: "#fcfcfc",
+    date: "Aug 2025 - Present",
+    points: [
+      "Built a simulation in Unity for pre-surgical planning and decision making to showcase detection of medical conditions and diseases using proprietary ML model.",
+      "Deployed a production OCR-to-LLM pipeline to analyze disputed insurance documents, normalizing data into Postgres with full regulatory audit trails.",
+      "Developed an intelligent ranking algorithm that improved reviewer assignment accuracy by 45% and reduced service-level (SLA) breaches by 25%.",
+      "Built and scaled a 99.9% uptime, HIPAA-compliant reviewer portal (React, Node.js, Kafka) using Docker, GCP, and CI/CD for secure document annotation and real-time case assignment.",
+    ],
+  },
+  {
+    title: "Founding Full Stack Engineer (GenAI Product)",
+    company_name: "Basata",
+    icon: basata,
+    iconBg: "#fcfcfc",
+    date: "Aug 2024 - Aug 2025",
+    points: [
+      "Developed modular React interfaces and type-safe APIs for a GenAI clinical platform, boosting user productivity by 60%",
+      "Built a scalable, event-driven (Kafka) microservices backend with a fax-to-OCR-LLM pipeline, cutting dependency on legacy EHR portals by 50% through direct integration",
+      "Co-designed a low-latency voice agent using Python, LiveKit, Twilio, and LLMs to efficiently manage real-time PII/PHI confirmation workflows",
+      "Implemented CI/CD pipelines (GitHub Actions), containerization, and observability (Sentry) to proactively mitigate downtime and ensure HIPAA compliance",
+    ],
+  },
+  {
     title: "Graduate Research Assistant (Unity Developer)",
     company_name: "Indiana University-Bloomington",
     icon: iu,
     iconBg: "#fcfcfc",
-    date: "Jun 2023 - Present",
+    date: "Jun 2023 - May 2024",
     points: [
       "Working under Prof. Andreas Bueckle on developing the HRA Organ Gallery in VR using Unity.",
       "Notable acheivements: wrote editor scripts in C# to automate pre build checks procedure before exporting to .apk",
@@ -186,59 +215,52 @@ const experiences = [
 
 const projects = [
   {
-    name: "CRISP Webapp",
+    name: "2D PokémonGO Clone",
     description:
-      "SaaS portal for Nature Journal's paper authored by Dr. Hasan Kurban. Tool designed to simulate results of ML model designed in R on a 3D graph.",
+      "2D PokeMon Go Clone in XCode using MapKit, SpriteKit and CoreData. With Realtime random instantiation of pokemons on map and interactable fight scene when tapped. Worked on this app to showcase my zeal for mobile gaming as AI for C323 class",
     tags: [
       {
-        name: "react",
+        name: "XCode",
         color: "blue-text-gradient",
       },
       {
-        name: "r-plumber",
-        color: "green-text-gradient",
-      },
-      {
-        name: "docker",
-        color: "white-text-gradient",
-      },
-      {
-        name: "machine-learning",
+        name: "swift",
         color: "orange-text-gradient",
       },
+      {
+        name: "iOS",
+        color: "pink-text-gradient",
+      },
     ],
-    image: crisp,
-    source_code_link: "https://github.com/thespiritninja/dsaa-webapp",
+    image: pokego,
+    source_code_link: "https://github.com/thespiritninja",
   },
   {
-    name: "Fantactic Tool",
+    name: "HRA Organ Gallery",
     description:
-      "Web-based SaaS portal for client to perform CRUD operation and visualise different specifics of a Fan like performance, torque and octave on graphs. Developed a patent search algorithm to result best fan per user inputs",
+      "The HRA Organ Gallery is an immersive VR experience that allows you to explore a comprehensive, open-source 3D map of the healthy human body at the cellular level. The app was built in Unity and is targeted for Meta Quest 2 and similar XR devices.",
     tags: [
       {
-        name: "react",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "aws",
+        name: "C#",
         color: "white-text-gradient",
       },
+      {
+        name: "VR",
+        color: "orange-text-gradient",
+      },
     ],
-    image: fantactic,
-    source_code_link: "https://github.com/thespiritninja/ENCON-FanDB",
+    image: hraOrganGallery,
+    source_code_link:
+      "https://www.meta.com/experiences/hra-organ-gallery/5696814507101529/",
   },
   {
     name: "Minecraft Game",
     description:
-      "Minecraft clone with basic gameplay using React and Three. Designed the webapp to understand the working of WebGL and Physics for Game Programming and Development",
+      "Minecraft clone with basic gameplay using React and Three. Designed the webapp to understand the working of WebGL and Physics for Game Programming and Development.",
     tags: [
       {
         name: "react",
@@ -299,46 +321,29 @@ const projects = [
     source_code_link: "https://react-flying-plane.vercel.app/",
   },
   {
-    name: "2D PokémonGO Clone",
+    name: "CRISP Webapp",
     description:
-      "2D PokeMon Go Clone in XCode using MapKit, SpriteKit and CoreData. With Realtime random instantiation of pokemons on map and interactable fight scene when tapped. Worked on this app to showcase my zeal for mobile gaming as AI for C323 class",
+      "SaaS portal for Nature Journal's paper authored by Dr. Hasan Kurban. Tool designed to simulate results of ML model designed in R on a 3D graph.",
     tags: [
       {
-        name: "XCode",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "swift",
-        color: "orange-text-gradient",
+        name: "r-plumber",
+        color: "green-text-gradient",
       },
       {
-        name: "iOS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pokego,
-    source_code_link: "https://github.com/thespiritninja",
-  },
-  {
-    name: "EduLearning Mobile App",
-    description:
-      "EduLearning Mobile App designed to give users a OTG learning experience. The app was designed using React Native and Strapi backend service for course details.",
-    tags: [
-      {
-        name: "cross_platform",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "expo",
+        name: "docker",
         color: "white-text-gradient",
       },
       {
-        name: "react-native",
+        name: "machine-learning",
         color: "orange-text-gradient",
       },
     ],
-    image: iu,
-    source_code_link: "https://github.com/thespiritninja/EduLearningApp",
+    image: crisp,
+    source_code_link: "https://github.com/thespiritninja/dsaa-webapp",
   },
 ];
 

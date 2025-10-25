@@ -42,6 +42,8 @@ import osa from "./company/osa-logo.png";
 import accenture from "./company/accenture.png";
 import shipmantra from "./company/shipmantra.png";
 import iu from "./company/IU-logo.png";
+import basata from "./company/basata.png";
+import rediminds from "./company/rediminds.png";
 
 import crisp from "./crisp-img.png";
 import fantactic from "./fantactic-img.png";
@@ -49,6 +51,7 @@ import pokego from "./pokego-img.png";
 import carRace from "./car-race.png";
 import flying from "./flying.png";
 import minecraft from "./minecraft.png";
+import hraOrganGallery from "./hraOrganGallery.png";
 
 export {
   csharp,
@@ -99,4 +102,7 @@ export {
   minecraft,
   flying,
   play,
+  basata,
+  rediminds,
+  hraOrganGallery,
 };

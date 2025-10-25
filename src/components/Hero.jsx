@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         <div className={"relative m-9 hover:scale-150 hover:rotate-45"}>
           <h1 className={`${styles.heroSubText}`}>
-            <span className="text-white-100">Tap on me once! </span>
+            <span className="text-white-100"> Poke me once, I dare you! </span>
           </h1>
         </div>
       </div>
